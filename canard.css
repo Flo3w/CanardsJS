@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 10px solid #b2a010;
+    width: 80%;
+    margin: 20px auto;
+}
+
+body {
+    background: #20ab28;
+    font-family: Arial;
+    color: #ccc;
+}
+
+.btn {
+    width: 150px;
+    padding: 15px;
+    border: 5px solid #ccc;
+    background: #50cb58;
+    border-radius: 7px;
+    margin: 40px auto;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.btn:hover {
+    background: #ccc;
+    color: #20ab28;
+    border: 5px solid #b2a010;
+}
+
+.spanImage {
+    display: flex;
+    justify-content: center;
+}
